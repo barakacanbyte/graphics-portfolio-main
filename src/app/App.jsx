@@ -21,43 +21,55 @@ import clsx from "clsx";
 
 const posters = [
   {
-    image: "./src/assets/images/matema.jpg",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195413/graphics%20portifolio/matema_uv6wwn.jpg",
   },
   {
-    image: "./src/assets/images/masangula.jpg",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195413/graphics%20portifolio/masangula_nw36sj.jpg",
   },
   {
-    image: "./src/assets/images/Poster for Angel.jpg",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195415/graphics%20portifolio/Poster_for_Angel_kbfpkx.jpg",
   },
   {
-    image: "./src/assets/images/putin poster.jpg",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195412/graphics%20portifolio/putin_poster_amqgps.jpg",
   },
   {
-    image: "./src/assets/images/poster.png",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195414/graphics%20portifolio/poster_ouwinb.png",
   },
   {
-    image: "./src/assets/images/advert.jpg",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195415/graphics%20portifolio/advert_keh4er.jpg",
   },
 ];
 
 const logos = [
   {
-    image: "./src/assets/images/global3.jpg",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195414/graphics%20portifolio/global3_yr39ri.jpg",
   },
   {
-    image: "./src/assets/images/Keonna dark.jpg",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195415/graphics%20portifolio/Keonna_dark_lejyq9.jpg",
   },
   {
-    image: "./src/assets/images/Nzuri-cotts.png",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195415/graphics%20portifolio/Nzuri-cotts_xu9ly0.png",
   },
   {
-    image: "./src/assets/images/rename.jpg",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195413/graphics%20portifolio/rename_ilrf6p.jpg",
   },
   {
-    image: "./src/assets/images/SuperBalo.jpg",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195418/graphics%20portifolio/SuperBalo_hg3okk.jpg",
   },
   {
-    image: "./src/assets/images/tumwinue.png",
+    image:
+      "https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195414/graphics%20portifolio/tumwinue_oathmn.png",
   },
 ];
 
@@ -93,7 +105,10 @@ function App() {
       {/* Navbar */}
       <div className={style.nav}>
         <a className={style.logo}>
-          <img src="./src/assets/images/logo.png" width={50 + "px"} />
+          <img
+            src="https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195411/graphics%20portifolio/logo_w3hwjg.png"
+            width={50 + "px"}
+          />
           <h5>Baraka Jimmy</h5>
         </a>
         <ul>
@@ -219,7 +234,8 @@ function App() {
                 </div>
               );
             })}
-          </div><hr/>
+          </div>
+          <hr />
           {/* logos */}
           <h3 id="logos" className={style["section-head"]}>
             LOGOS
@@ -234,7 +250,8 @@ function App() {
                 </div>
               );
             })}
-          </div><hr/>
+          </div>
+          <hr />
           {/* motion graphics */}
           <h3 id="motion" className={style["section-head"]}>
             MOTION GRAPHICS
