@@ -363,7 +363,7 @@ function App() {
             </div>
           </div>
           <div className={style["copy-right"]}>
-            © Copyright 2023. <span>Baraka Jimmy</span>
+            © Copyright 2024. <span>Baraka Jimmy</span>
           </div>
         </div>
       </div>
