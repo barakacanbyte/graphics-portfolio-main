@@ -21,43 +21,43 @@ import clsx from "clsx";
 
 const posters = [
   {
-    image: "src/assets/images/matema.jpg",
+    image: "./src/assets/images/matema.jpg",
   },
   {
-    image: "src/assets/images/masangula.jpg",
+    image: "./src/assets/images/masangula.jpg",
   },
   {
-    image: "src/assets/images/Poster for Angel.jpg",
+    image: "./src/assets/images/Poster for Angel.jpg",
   },
   {
-    image: "src/assets/images/putin poster.jpg",
+    image: "./src/assets/images/putin poster.jpg",
   },
   {
-    image: "src/assets/images/poster.png",
+    image: "./src/assets/images/poster.png",
   },
   {
-    image: "src/assets/images/advert.jpg",
+    image: "./src/assets/images/advert.jpg",
   },
 ];
 
 const logos = [
   {
-    image: "src/assets/images/global3.jpg",
+    image: "./src/assets/images/global3.jpg",
   },
   {
-    image: "src/assets/images/Keonna dark.jpg",
+    image: "./src/assets/images/Keonna dark.jpg",
   },
   {
-    image: "src/assets/images/Nzuri-cotts.png",
+    image: "./src/assets/images/Nzuri-cotts.png",
   },
   {
-    image: "src/assets/images/rename.jpg",
+    image: "./src/assets/images/rename.jpg",
   },
   {
-    image: "src/assets/images/SuperBalo.jpg",
+    image: "./src/assets/images/SuperBalo.jpg",
   },
   {
-    image: "src/assets/images/tumwinue.png",
+    image: "./src/assets/images/tumwinue.png",
   },
 ];
 
@@ -93,7 +93,7 @@ function App() {
       {/* Navbar */}
       <div className={style.nav}>
         <a className={style.logo}>
-          <img src="src/assets/images/logo.png" width={50 + "px"} />
+          <img src="./src/assets/images/logo.png" width={50 + "px"} />
           <h5>Baraka Jimmy</h5>
         </a>
         <ul>
@@ -208,7 +208,7 @@ function App() {
         <div className={style.container}>
           <h2 className={style.title}>Gallery</h2>
           <p>Here you will find some of the personal and clients works</p>
-          <h3 className="">Posters</h3>
+          <h3 className={style["section-head"]}>POSTERS</h3>
           <div className={style["projects-list"]}>
             {posters.map((poster, index) => {
               return (
@@ -219,10 +219,12 @@ function App() {
                 </div>
               );
             })}
-          </div>
+          </div><hr/>
           {/* logos */}
-          <h3 id="logos">Logos</h3>
-          <div className={style["projects-list"]}>
+          <h3 id="logos" className={style["section-head"]}>
+            LOGOS
+          </h3>
+          <div className={style["logos-list"]}>
             {logos.map((logo, index) => {
               return (
                 <div key={`logo${index}`} className={style["logo-g"]}>
@@ -232,10 +234,10 @@ function App() {
                 </div>
               );
             })}
-          </div>
+          </div><hr/>
           {/* motion graphics */}
-          <h3 id="motion" className="">
-            Motion Graphics
+          <h3 id="motion" className={style["section-head"]}>
+            MOTION GRAPHICS
           </h3>
           <div className={style["video-container"]}>
             <iframe
@@ -344,7 +346,7 @@ function App() {
             </div>
           </div>
           <div className={style["copy-right"]}>
-            © Copyright 2023. Made by <span>Baraka Jimmy</span>
+            © Copyright 2023. <span>Baraka Jimmy</span>
           </div>
         </div>
       </div>
