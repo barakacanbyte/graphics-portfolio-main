@@ -153,11 +153,11 @@ function App() {
             <a href="#logos">Logos</a>
           </li>
           <li>
-            <a href="#motion">Motion</a>
+            <a href="#motion">Motion-Graphics</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#Contact">Contact</a>
-          </li>
+          </li> */}
         </ul>
       )}
 

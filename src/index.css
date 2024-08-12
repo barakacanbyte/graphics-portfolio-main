@@ -23,7 +23,7 @@
   --git-color: #f05539;
   --java-color: #5382a1;
   --cpp-color: #4caf50;
-  --facebook-color: #4267B2;
+  --facebook-color: #4267b2;
   --linked-in-color: #0077b5;
   --gmail-color: #c72923;
   --type-script-color: #007acc;
@@ -37,7 +37,7 @@ html {
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 a {
@@ -63,6 +63,10 @@ ul {
 @media (max-width: 768px) {
   .container {
     width: 750px;
+  }
+
+  .home {
+    height: 90vh;
   }
 }
 
