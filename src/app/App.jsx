@@ -1,23 +1,23 @@
 import React, { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 // import components
-import InputField from "../common/components/InputField/InputField";
-import TextAreaField from "../common/components/TextAreaField/TextAreaField";
-import SubmitButton from "../common/components/SubmitButton/SubmitButton";
-import Loader from "../common/components/Loader/Loader";
-import cv from "../assets/files/cv.pdf";
+// import InputField from "../common/components/InputField/InputField";
+// import TextAreaField from "../common/components/TextAreaField/TextAreaField";
+// import SubmitButton from "../common/components/SubmitButton/SubmitButton";
+// import Loader from "../common/components/Loader/Loader";
+
 
 // import icons
-import { FaReact } from "react-icons/fa";
+// import { FaReact } from "react-icons/fa";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
-import { BsFacebook } from "react-icons/bs";
-import { RiSendPlaneFill } from "react-icons/ri";
+// import { BsFacebook } from "react-icons/bs";
+// import { RiSendPlaneFill } from "react-icons/ri";
 
 // import style
 import style from "./App.module.css";
-import clsx from "clsx";
+// import clsx from "clsx";
 
 const posters = [
   {
@@ -109,7 +109,7 @@ function App() {
             src="https://res.cloudinary.com/dglqu5yh3/image/upload/v1723195411/graphics%20portifolio/logo_w3hwjg.png"
             width={50 + "px"}
           />
-          <h5>Baraka Jimmy</h5>
+          {/* <h5>Baraka Jimmy</h5> */}
         </a>
         <ul>
           <li>
@@ -122,11 +122,11 @@ function App() {
             <a href="#logos">Logos</a>
           </li>
           <li>
-            <a href="#motion">Motion</a>
+            <a href="#motion">Motion-Graphics</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#Contact">Contact</a>
-          </li>
+          </li> */}
         </ul>
         <div className={style["menu-icon"]}>
           <input id="checkbox" className={style["checkbox2"]} type="checkbox" />
@@ -164,16 +164,16 @@ function App() {
       {/* Home */}
       <div id="Home" className={style.home}>
         <div className={style["home-content"]}>
-          <h1>HEY, I'M Baraka Jimmy</h1>
+          <span>HEY, I'M Baraka Jimmy</span>
           <p>
             A Developer by Profession, and this is my Graphic Design Portfolio
           </p>
-          <a
+          {/* <a
             href={cv}
             download="cv-PDF-document"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          ></a> */}
         </div>
         <div className={style["scroll-icon"]}>
           <div
@@ -204,7 +204,7 @@ function App() {
           <a
             className={style.gmail}
             target="_blank"
-            href="mailto:barakajimmy@outlook.com?subject=SendMail&body=Description"
+            href="mailto:barackjimmy1@outlook.com?subject=SendMail&body=Description"
           >
             <BiLogoGmail size="30px" color="black" />
           </a>
@@ -268,7 +268,7 @@ function App() {
       </div>
 
       {/* Contact */}
-      <div id="Contact" className={style.contact}>
+      {/* <div id="Contact" className={style.contact}>
         <div className={style.container}>
           <h2 className={style.title}>Contact</h2>
           <p>
@@ -277,7 +277,7 @@ function App() {
           </p>
           <form
             ref={form}
-            action="mailto:barakajimmy@outlook.com"
+            action=""
             method="post"
             enctype="text/plain"
             className={clsx({ [style["inactive-form"]]: loading })}
@@ -322,7 +322,7 @@ function App() {
             )}
           </form>
         </div>
-      </div>
+      </div> */}
 
       {/* footer */}
       <div className={style.footer}>
